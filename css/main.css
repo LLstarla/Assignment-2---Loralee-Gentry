@@ -2,9 +2,13 @@
 GENERAL
 *******************************************/
 
-a {
-	text-decoration: none;
+body { 
+	font-family: 'Lobster' , sans-serif;
+
+
 }
+
+
 
 #wrapper {
 	max-width: 940px;
@@ -13,7 +17,9 @@ a {
 	
 }
 
-
+a {
+	text-decoration: none;
+}
 
 /*****************************************
 HEADING
@@ -28,7 +34,49 @@ h1 {
 	font-family: 'Cabin', sans-serif;
 	margin: 15px 0;
 	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
 }
+
+h2 {
+	margin: -5px 0 0;
+	font-size: 0.75em;
+	font-weight: normal;
+}
+
+
+
+/*****************************************
+NAVIGATION
+*******************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+
+}
+
+
+
+/*****************************************
+FOOTER
+*******************************************/
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+
+}
+
+
+
+
+
+
 
 /*****************************************
 COLORS
