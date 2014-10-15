@@ -1,3 +1,7 @@
+/*****************************************
+GENERAL
+*******************************************/
+
 a {
 	text-decoration: none;
 }
@@ -9,39 +13,62 @@ a {
 	
 }
 
+
+
+/*****************************************
+HEADING
+*******************************************/
+
 #logo {
 	text-align: center;
 	margin: 0;
 }
 
+h1 {
+	font-family: 'Cabin', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+}
 
-
-
-
+/*****************************************
+COLORS
+*******************************************/
 
 a {
 
 	color: #6ab47b;
 }
 
+/* green header */
 header {
 
 	background: #6ab47b;
 	border-color: #599a68;
 }
-
+/*logo text */
 h1, h2 {
 
 	color: #fff;
 }
-
+/* nav background on mobile devices */
 nav {
 	background: #599a68;
 }
-
+/*nav link*/
 nav a, nav a:visited {
 
 	color: #fff
+}
+/*selected nav link color*/
+nav a.selected, nav a:hover {
+	color: #32673f;
+
+}
+
+/* site body */
+body {
+	background-color: #ffffff;
+	color: #999999;
 }
 
 
