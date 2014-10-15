@@ -25,6 +25,13 @@ img {
 	max-width: 100%;
 }
 
+h3 {
+	margin: 0 0 1em 0;
+
+}
+
+
+
 /*****************************************
 HEADING
 *******************************************/
@@ -107,7 +114,7 @@ footer {
 	margin: 0 5px;
 
 
-	
+
 }
 
 
@@ -136,6 +143,24 @@ PAGE PORTFOLIO
 	font-size: 0.75em;
 	color: #bdc3c7;
 }
+
+
+/*****************************************
+PAGE: ABOUT
+*******************************************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 20px;
+
+}
+
+
+
+
+
 
 
 
